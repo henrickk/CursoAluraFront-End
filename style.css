@@ -1,53 +1,111 @@
-#bunner {
-  width: 100%;
+header {
+  background: #BBBBBB;
+  padding: 20px 0;
 }
 
-.principal {
-  background: #CCCCCC;
-  padding: 30px;
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
-.titulo-principal {
-  padding-left: 20px;
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
-.titulo-centralizado {
-  text-align: center;
+nav li {
+  display: inline;
+  margin: 0 0 0 5px;
 }
 
-p {
-  text-align: center;
+nav a {
+  text-transform: uppercase;
+  /*Deixar as letras em maiúsculo*/
+  color: black;
+  font-weight: bold;
+  /*Deixar letras em negrito*/
+  font-size: 22px;
+  /*Tamanho da fonte das letras*/
+  text-decoration: none;
+  /*Para tirar o sublinhado */
 }
 
-#missao {
-  font-size: 20px;
+nav a:hover {
+  color: #C78C19;
+  /*Quando estiver encima do elemento, ele ficará dessa cor(#C78C19)*/
+  text-decoration: underline;
+  /*Quando estiver encima do elemento, ele fucará sublinhado a baixo da palavra*/
 }
 
-em strong {
-  color: red;
-}
-
-.itens {
-  font-style: italic;
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 
 }
 
-.beneficios {
-  background: white;
-  padding: 20px;
-}
-
-ul {
+.produtos li {
   display: inline-block;
+  /*para ficar lado a lado*/
+  text-align: center;
+  /*centralizar*/
+  width: 30%;
+  /*para separar uniformemente*/
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  /*para que os itens carreguem de cima para baixo*/
+  margin: 0 1.5%;
+  /*espaçamento externo*/
+  padding: 30px 20px;
+  /*Espaçamento interno*/
+  box-sizing: border-box;
+  /* border-color: #000000;
+  border-width: 2px;
+  border-style: solid;*/
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-li {
-  padding: 10px;
+.produtos li:hover {
+  border-color: #C78C19;
+  /*Quando estiver encima do elemento, ele ficará dessa cor(#C78C19)*/
 }
 
-.imagemBeneficios {
-  width: 50%;
+.produtos li:active {
+  border-color: #088c19;
+  /*Quando clicar no elementos dos card's, mudará para a cor(#088c19)*/
+
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+  /*Quando passar o mouse encima o elemento do titulo fica maior */
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+footer {
+  text-align: center;
+  background: url('bg.jpg');
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
