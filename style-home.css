@@ -17,7 +17,7 @@ nav {
 
 nav li {
   display: inline;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 20px;
 }
 
 nav a {
@@ -57,6 +57,16 @@ nav a:hover {
 	text-align: center
 }
 
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 p {
 	text-align: center;
 }
@@ -73,9 +83,16 @@ em strong {
 	font-style: italic
 }
 
-.beneficios {
+div.beneficios {
 	background: #FFFFFF;
-	padding: 20px;
+	padding: 20%;
+}
+
+ul.beneficios {
+display: inline-block;
+vertical-align: top;
+width: 20%;
+margin-right: 15%;
 }
 
 .beneficios {
@@ -83,6 +100,15 @@ em strong {
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
+}
+
+ul.beneficios {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .imagembeneficios {
